@@ -1,0 +1,17 @@
+1. npm init -y
+2. npm start => chay chuong trinh sau moi lan thay doi
+2. npm install --save-dev nodemon
+3. nodemon server =>chay chuong trinh 1 lan duy nhat
+4.   "scripts": {
+    "start":"node server",
+    "startDev":"nodemon server"
+     },
+     //*nhan xet:
+     npm run start=node server => chay moi lan
+     npm run startDev=nodemon server => chay duy nhat 1 lan
+5. npm install mongoose
+5. npm install ejs
+6. npm install method-override ghi đè phương thức
+var methodOverride = require('method-override')
+app.use(methodOverride('_method'))
+7. npm install dotenv
